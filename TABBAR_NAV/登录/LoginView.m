@@ -29,6 +29,8 @@
     if (self) {
         [self AddUI];
         
+        NSLog(@"xiaohua is pig!");
+        
     }
     return self;
 }
