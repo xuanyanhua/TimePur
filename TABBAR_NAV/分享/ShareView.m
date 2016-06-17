@@ -95,7 +95,7 @@
     if (!_quickLog) {
         _quickLog = [[UILabel alloc]init];
         _quickLog.text = @"一键登录";
-        _quickLog.backgroundColor = [UIColor lightGrayColor];
+//        _quickLog.backgroundColor = [UIColor lightGrayColor];
         _quickLog.alpha = 0.5;
     }
     return _quickLog;
