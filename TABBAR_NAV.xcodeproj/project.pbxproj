@@ -1,0 +1,804 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1173D7443E1C22E51BF3E657 /* libPods-TABBAR_NAVUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F32A15AF2709A4B324BF17 /* libPods-TABBAR_NAVUITests.a */; };
+		60FFB381EFF902AD05B6BA79 /* libPods-TABBAR_NAV.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4D2CD766681E19D7E79F319 /* libPods-TABBAR_NAV.a */; };
+		74DCBDBD1D123C5E003744F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DCBDBC1D123C5E003744F6 /* main.m */; };
+		74DCBDC01D123C5E003744F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DCBDBF1D123C5E003744F6 /* AppDelegate.m */; };
+		74DCBDC61D123C5E003744F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74DCBDC41D123C5E003744F6 /* Main.storyboard */; };
+		74DCBDC81D123C5E003744F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74DCBDC71D123C5E003744F6 /* Assets.xcassets */; };
+		74DCBDCB1D123C5E003744F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74DCBDC91D123C5E003744F6 /* LaunchScreen.storyboard */; };
+		74DCBDD61D123C5E003744F6 /* TABBAR_NAVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DCBDD51D123C5E003744F6 /* TABBAR_NAVTests.m */; };
+		74DCBDE11D123C5E003744F6 /* TABBAR_NAVUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DCBDE01D123C5E003744F6 /* TABBAR_NAVUITests.m */; };
+		74DCBDF91D123FB0003744F6 /* TabBarC.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DCBDF81D123FB0003744F6 /* TabBarC.m */; };
+		74DCBDFC1D123FD2003744F6 /* NavVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DCBDFB1D123FD2003744F6 /* NavVC.m */; };
+		74DCBDFF1D123FFC003744F6 /* FirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DCBDFE1D123FFC003744F6 /* FirstVC.m */; };
+		74DCBE021D12401E003744F6 /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DCBE011D12401E003744F6 /* SecondVC.m */; };
+		74DCBE051D12403C003744F6 /* ThirdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DCBE041D12403C003744F6 /* ThirdVC.m */; };
+		74DCBE081D124059003744F6 /* FourVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DCBE071D124059003744F6 /* FourVC.m */; };
+		74DCBE0A1D12407C003744F6 /* TabBar_Model.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74DCBE091D12407C003744F6 /* TabBar_Model.plist */; };
+		74DCBE141D128118003744F6 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DCBE131D128118003744F6 /* LoginView.m */; };
+		74DCBE171D129F30003744F6 /* ShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DCBE161D129F30003744F6 /* ShareView.m */; };
+		F0C472672BE2B24B7DD5BD4B /* libPods-TABBAR_NAVTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA77EAA09CB07FA7C145283E /* libPods-TABBAR_NAVTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74DCBDD21D123C5E003744F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74DCBDB01D123C5E003744F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74DCBDB71D123C5E003744F6;
+			remoteInfo = TABBAR_NAV;
+		};
+		74DCBDDD1D123C5E003744F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74DCBDB01D123C5E003744F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74DCBDB71D123C5E003744F6;
+			remoteInfo = TABBAR_NAV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1176050148E64ACF157BCA6B /* Pods-TABBAR_NAV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TABBAR_NAV.release.xcconfig"; path = "Pods/Target Support Files/Pods-TABBAR_NAV/Pods-TABBAR_NAV.release.xcconfig"; sourceTree = "<group>"; };
+		74DCBDB81D123C5E003744F6 /* TABBAR_NAV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TABBAR_NAV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74DCBDBC1D123C5E003744F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74DCBDBE1D123C5E003744F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		74DCBDBF1D123C5E003744F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		74DCBDC51D123C5E003744F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74DCBDC71D123C5E003744F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74DCBDCA1D123C5E003744F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74DCBDCC1D123C5E003744F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74DCBDD11D123C5E003744F6 /* TABBAR_NAVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TABBAR_NAVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74DCBDD51D123C5E003744F6 /* TABBAR_NAVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TABBAR_NAVTests.m; sourceTree = "<group>"; };
+		74DCBDD71D123C5E003744F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74DCBDDC1D123C5E003744F6 /* TABBAR_NAVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TABBAR_NAVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74DCBDE01D123C5E003744F6 /* TABBAR_NAVUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TABBAR_NAVUITests.m; sourceTree = "<group>"; };
+		74DCBDE21D123C5E003744F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74DCBDF71D123FB0003744F6 /* TabBarC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TabBarC.h; path = tabbar/TabBarC.h; sourceTree = "<group>"; };
+		74DCBDF81D123FB0003744F6 /* TabBarC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TabBarC.m; path = tabbar/TabBarC.m; sourceTree = "<group>"; };
+		74DCBDFA1D123FD2003744F6 /* NavVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NavVC.h; path = NAV/NavVC.h; sourceTree = "<group>"; };
+		74DCBDFB1D123FD2003744F6 /* NavVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NavVC.m; path = NAV/NavVC.m; sourceTree = "<group>"; };
+		74DCBDFD1D123FFC003744F6 /* FirstVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstVC.h; path = FIirstVc/FirstVC.h; sourceTree = "<group>"; };
+		74DCBDFE1D123FFC003744F6 /* FirstVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstVC.m; path = FIirstVc/FirstVC.m; sourceTree = "<group>"; };
+		74DCBE001D12401E003744F6 /* SecondVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondVC.h; path = SecondVC/SecondVC.h; sourceTree = "<group>"; };
+		74DCBE011D12401E003744F6 /* SecondVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondVC.m; path = SecondVC/SecondVC.m; sourceTree = "<group>"; };
+		74DCBE031D12403C003744F6 /* ThirdVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThirdVC.h; path = ThirdVC/ThirdVC.h; sourceTree = "<group>"; };
+		74DCBE041D12403C003744F6 /* ThirdVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThirdVC.m; path = ThirdVC/ThirdVC.m; sourceTree = "<group>"; };
+		74DCBE061D124059003744F6 /* FourVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FourVC.h; path = FourVC/FourVC.h; sourceTree = "<group>"; };
+		74DCBE071D124059003744F6 /* FourVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FourVC.m; path = FourVC/FourVC.m; sourceTree = "<group>"; };
+		74DCBE091D12407C003744F6 /* TabBar_Model.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TabBar_Model.plist; sourceTree = "<group>"; };
+		74DCBE0B1D125A89003744F6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		74DCBE121D128118003744F6 /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginView.h; path = "登录/LoginView.h"; sourceTree = "<group>"; };
+		74DCBE131D128118003744F6 /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginView.m; path = "登录/LoginView.m"; sourceTree = "<group>"; };
+		74DCBE151D129F30003744F6 /* ShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShareView.h; path = "分享/ShareView.h"; sourceTree = "<group>"; };
+		74DCBE161D129F30003744F6 /* ShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShareView.m; path = "分享/ShareView.m"; sourceTree = "<group>"; };
+		9A0233A712ECCEE41B948093 /* Pods-TABBAR_NAVTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TABBAR_NAVTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TABBAR_NAVTests/Pods-TABBAR_NAVTests.release.xcconfig"; sourceTree = "<group>"; };
+		A6F32A15AF2709A4B324BF17 /* libPods-TABBAR_NAVUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TABBAR_NAVUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4D2CD766681E19D7E79F319 /* libPods-TABBAR_NAV.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TABBAR_NAV.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA55981850129F7BB27320AC /* Pods-TABBAR_NAVUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TABBAR_NAVUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TABBAR_NAVUITests/Pods-TABBAR_NAVUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA77EAA09CB07FA7C145283E /* libPods-TABBAR_NAVTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TABBAR_NAVTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4C61242EFB99F6C3C4A44BF /* Pods-TABBAR_NAV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TABBAR_NAV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TABBAR_NAV/Pods-TABBAR_NAV.debug.xcconfig"; sourceTree = "<group>"; };
+		DB52BBEAF32BED533CF0C6C9 /* Pods-TABBAR_NAVTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TABBAR_NAVTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TABBAR_NAVTests/Pods-TABBAR_NAVTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E2384E1AD64949597207EAC5 /* Pods-TABBAR_NAVUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TABBAR_NAVUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TABBAR_NAVUITests/Pods-TABBAR_NAVUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74DCBDB51D123C5E003744F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60FFB381EFF902AD05B6BA79 /* libPods-TABBAR_NAV.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DCBDCE1D123C5E003744F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C472672BE2B24B7DD5BD4B /* libPods-TABBAR_NAVTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DCBDD91D123C5E003744F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1173D7443E1C22E51BF3E657 /* libPods-TABBAR_NAVUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56A37C061F150EDDCE0EA3A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4D2CD766681E19D7E79F319 /* libPods-TABBAR_NAV.a */,
+				CA77EAA09CB07FA7C145283E /* libPods-TABBAR_NAVTests.a */,
+				A6F32A15AF2709A4B324BF17 /* libPods-TABBAR_NAVUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74DCBDAF1D123C5E003744F6 = {
+			isa = PBXGroup;
+			children = (
+				74DCBDBA1D123C5E003744F6 /* TABBAR_NAV */,
+				74DCBDD41D123C5E003744F6 /* TABBAR_NAVTests */,
+				74DCBDDF1D123C5E003744F6 /* TABBAR_NAVUITests */,
+				74DCBDB91D123C5E003744F6 /* Products */,
+				BD78AE0AB84EE97B28D294E3 /* Pods */,
+				56A37C061F150EDDCE0EA3A5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		74DCBDB91D123C5E003744F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74DCBDB81D123C5E003744F6 /* TABBAR_NAV.app */,
+				74DCBDD11D123C5E003744F6 /* TABBAR_NAVTests.xctest */,
+				74DCBDDC1D123C5E003744F6 /* TABBAR_NAVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74DCBDBA1D123C5E003744F6 /* TABBAR_NAV */ = {
+			isa = PBXGroup;
+			children = (
+				74DCBE111D128071003744F6 /* 我的 */,
+				74DCBE101D12806A003744F6 /* 购物车 */,
+				74DCBE0F1D128063003744F6 /* 分类 */,
+				74DCBE0E1D128037003744F6 /* 限时购 */,
+				74DCBE0D1D12801F003744F6 /* nav */,
+				74DCBE0C1D128002003744F6 /* tabbar */,
+				74DCBDC41D123C5E003744F6 /* Main.storyboard */,
+				74DCBDBE1D123C5E003744F6 /* AppDelegate.h */,
+				74DCBDBF1D123C5E003744F6 /* AppDelegate.m */,
+				74DCBE121D128118003744F6 /* LoginView.h */,
+				74DCBE131D128118003744F6 /* LoginView.m */,
+				74DCBE151D129F30003744F6 /* ShareView.h */,
+				74DCBE161D129F30003744F6 /* ShareView.m */,
+				74DCBDC71D123C5E003744F6 /* Assets.xcassets */,
+				74DCBDC91D123C5E003744F6 /* LaunchScreen.storyboard */,
+				74DCBDCC1D123C5E003744F6 /* Info.plist */,
+				74DCBE091D12407C003744F6 /* TabBar_Model.plist */,
+				74DCBE0B1D125A89003744F6 /* PrefixHeader.pch */,
+				74DCBDBB1D123C5E003744F6 /* Supporting Files */,
+			);
+			path = TABBAR_NAV;
+			sourceTree = "<group>";
+		};
+		74DCBDBB1D123C5E003744F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74DCBDBC1D123C5E003744F6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74DCBDD41D123C5E003744F6 /* TABBAR_NAVTests */ = {
+			isa = PBXGroup;
+			children = (
+				74DCBDD51D123C5E003744F6 /* TABBAR_NAVTests.m */,
+				74DCBDD71D123C5E003744F6 /* Info.plist */,
+			);
+			path = TABBAR_NAVTests;
+			sourceTree = "<group>";
+		};
+		74DCBDDF1D123C5E003744F6 /* TABBAR_NAVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74DCBDE01D123C5E003744F6 /* TABBAR_NAVUITests.m */,
+				74DCBDE21D123C5E003744F6 /* Info.plist */,
+			);
+			path = TABBAR_NAVUITests;
+			sourceTree = "<group>";
+		};
+		74DCBE0C1D128002003744F6 /* tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				74DCBDF71D123FB0003744F6 /* TabBarC.h */,
+				74DCBDF81D123FB0003744F6 /* TabBarC.m */,
+			);
+			name = tabbar;
+			sourceTree = "<group>";
+		};
+		74DCBE0D1D12801F003744F6 /* nav */ = {
+			isa = PBXGroup;
+			children = (
+				74DCBDFA1D123FD2003744F6 /* NavVC.h */,
+				74DCBDFB1D123FD2003744F6 /* NavVC.m */,
+			);
+			name = nav;
+			sourceTree = "<group>";
+		};
+		74DCBE0E1D128037003744F6 /* 限时购 */ = {
+			isa = PBXGroup;
+			children = (
+				74DCBDFD1D123FFC003744F6 /* FirstVC.h */,
+				74DCBDFE1D123FFC003744F6 /* FirstVC.m */,
+			);
+			name = "限时购";
+			sourceTree = "<group>";
+		};
+		74DCBE0F1D128063003744F6 /* 分类 */ = {
+			isa = PBXGroup;
+			children = (
+				74DCBE001D12401E003744F6 /* SecondVC.h */,
+				74DCBE011D12401E003744F6 /* SecondVC.m */,
+			);
+			name = "分类";
+			sourceTree = "<group>";
+		};
+		74DCBE101D12806A003744F6 /* 购物车 */ = {
+			isa = PBXGroup;
+			children = (
+				74DCBE031D12403C003744F6 /* ThirdVC.h */,
+				74DCBE041D12403C003744F6 /* ThirdVC.m */,
+			);
+			name = "购物车";
+			sourceTree = "<group>";
+		};
+		74DCBE111D128071003744F6 /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				74DCBE061D124059003744F6 /* FourVC.h */,
+				74DCBE071D124059003744F6 /* FourVC.m */,
+			);
+			name = "我的";
+			sourceTree = "<group>";
+		};
+		BD78AE0AB84EE97B28D294E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4C61242EFB99F6C3C4A44BF /* Pods-TABBAR_NAV.debug.xcconfig */,
+				1176050148E64ACF157BCA6B /* Pods-TABBAR_NAV.release.xcconfig */,
+				DB52BBEAF32BED533CF0C6C9 /* Pods-TABBAR_NAVTests.debug.xcconfig */,
+				9A0233A712ECCEE41B948093 /* Pods-TABBAR_NAVTests.release.xcconfig */,
+				CA55981850129F7BB27320AC /* Pods-TABBAR_NAVUITests.debug.xcconfig */,
+				E2384E1AD64949597207EAC5 /* Pods-TABBAR_NAVUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74DCBDB71D123C5E003744F6 /* TABBAR_NAV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74DCBDE51D123C5E003744F6 /* Build configuration list for PBXNativeTarget "TABBAR_NAV" */;
+			buildPhases = (
+				FCEE5234CC99CB33AD7712D2 /* 📦 Check Pods Manifest.lock */,
+				74DCBDB41D123C5E003744F6 /* Sources */,
+				74DCBDB51D123C5E003744F6 /* Frameworks */,
+				74DCBDB61D123C5E003744F6 /* Resources */,
+				DB2801E819F8109D757A66CA /* 📦 Embed Pods Frameworks */,
+				74F68BF7CA39EFF8599C32E4 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TABBAR_NAV;
+			productName = TABBAR_NAV;
+			productReference = 74DCBDB81D123C5E003744F6 /* TABBAR_NAV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74DCBDD01D123C5E003744F6 /* TABBAR_NAVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74DCBDE81D123C5E003744F6 /* Build configuration list for PBXNativeTarget "TABBAR_NAVTests" */;
+			buildPhases = (
+				B172D00CD664F43CC71449F2 /* 📦 Check Pods Manifest.lock */,
+				74DCBDCD1D123C5E003744F6 /* Sources */,
+				74DCBDCE1D123C5E003744F6 /* Frameworks */,
+				74DCBDCF1D123C5E003744F6 /* Resources */,
+				C6F3EBD86EE490393179D76D /* 📦 Embed Pods Frameworks */,
+				104DCBEF6A9B2D1603DFFBB8 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74DCBDD31D123C5E003744F6 /* PBXTargetDependency */,
+			);
+			name = TABBAR_NAVTests;
+			productName = TABBAR_NAVTests;
+			productReference = 74DCBDD11D123C5E003744F6 /* TABBAR_NAVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74DCBDDB1D123C5E003744F6 /* TABBAR_NAVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74DCBDEB1D123C5E003744F6 /* Build configuration list for PBXNativeTarget "TABBAR_NAVUITests" */;
+			buildPhases = (
+				AA41D31B26CC7C38390F0EDC /* 📦 Check Pods Manifest.lock */,
+				74DCBDD81D123C5E003744F6 /* Sources */,
+				74DCBDD91D123C5E003744F6 /* Frameworks */,
+				74DCBDDA1D123C5E003744F6 /* Resources */,
+				753DA50C3BA77FF9BF37A9A4 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74DCBDDE1D123C5E003744F6 /* PBXTargetDependency */,
+			);
+			name = TABBAR_NAVUITests;
+			productName = TABBAR_NAVUITests;
+			productReference = 74DCBDDC1D123C5E003744F6 /* TABBAR_NAVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74DCBDB01D123C5E003744F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = xyh;
+				TargetAttributes = {
+					74DCBDB71D123C5E003744F6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = R3UE498L5Z;
+					};
+					74DCBDD01D123C5E003744F6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = R3UE498L5Z;
+						TestTargetID = 74DCBDB71D123C5E003744F6;
+					};
+					74DCBDDB1D123C5E003744F6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = R3UE498L5Z;
+						TestTargetID = 74DCBDB71D123C5E003744F6;
+					};
+				};
+			};
+			buildConfigurationList = 74DCBDB31D123C5E003744F6 /* Build configuration list for PBXProject "TABBAR_NAV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74DCBDAF1D123C5E003744F6;
+			productRefGroup = 74DCBDB91D123C5E003744F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74DCBDB71D123C5E003744F6 /* TABBAR_NAV */,
+				74DCBDD01D123C5E003744F6 /* TABBAR_NAVTests */,
+				74DCBDDB1D123C5E003744F6 /* TABBAR_NAVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74DCBDB61D123C5E003744F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DCBE0A1D12407C003744F6 /* TabBar_Model.plist in Resources */,
+				74DCBDCB1D123C5E003744F6 /* LaunchScreen.storyboard in Resources */,
+				74DCBDC81D123C5E003744F6 /* Assets.xcassets in Resources */,
+				74DCBDC61D123C5E003744F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DCBDCF1D123C5E003744F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DCBDDA1D123C5E003744F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		104DCBEF6A9B2D1603DFFBB8 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TABBAR_NAVTests/Pods-TABBAR_NAVTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74F68BF7CA39EFF8599C32E4 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TABBAR_NAV/Pods-TABBAR_NAV-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		753DA50C3BA77FF9BF37A9A4 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TABBAR_NAVUITests/Pods-TABBAR_NAVUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA41D31B26CC7C38390F0EDC /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B172D00CD664F43CC71449F2 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C6F3EBD86EE490393179D76D /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TABBAR_NAVTests/Pods-TABBAR_NAVTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB2801E819F8109D757A66CA /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TABBAR_NAV/Pods-TABBAR_NAV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCEE5234CC99CB33AD7712D2 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74DCBDB41D123C5E003744F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DCBE051D12403C003744F6 /* ThirdVC.m in Sources */,
+				74DCBDFF1D123FFC003744F6 /* FirstVC.m in Sources */,
+				74DCBE171D129F30003744F6 /* ShareView.m in Sources */,
+				74DCBE081D124059003744F6 /* FourVC.m in Sources */,
+				74DCBE141D128118003744F6 /* LoginView.m in Sources */,
+				74DCBDC01D123C5E003744F6 /* AppDelegate.m in Sources */,
+				74DCBDBD1D123C5E003744F6 /* main.m in Sources */,
+				74DCBE021D12401E003744F6 /* SecondVC.m in Sources */,
+				74DCBDF91D123FB0003744F6 /* TabBarC.m in Sources */,
+				74DCBDFC1D123FD2003744F6 /* NavVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DCBDCD1D123C5E003744F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DCBDD61D123C5E003744F6 /* TABBAR_NAVTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DCBDD81D123C5E003744F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DCBDE11D123C5E003744F6 /* TABBAR_NAVUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74DCBDD31D123C5E003744F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74DCBDB71D123C5E003744F6 /* TABBAR_NAV */;
+			targetProxy = 74DCBDD21D123C5E003744F6 /* PBXContainerItemProxy */;
+		};
+		74DCBDDE1D123C5E003744F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74DCBDB71D123C5E003744F6 /* TABBAR_NAV */;
+			targetProxy = 74DCBDDD1D123C5E003744F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74DCBDC41D123C5E003744F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74DCBDC51D123C5E003744F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74DCBDC91D123C5E003744F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74DCBDCA1D123C5E003744F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74DCBDE31D123C5E003744F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74DCBDE41D123C5E003744F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74DCBDE61D123C5E003744F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4C61242EFB99F6C3C4A44BF /* Pods-TABBAR_NAV.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TABBAR_NAV/PrefixHeader.pch";
+				INFOPLIST_FILE = TABBAR_NAV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xyh.TABBAR-NAV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		74DCBDE71D123C5E003744F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1176050148E64ACF157BCA6B /* Pods-TABBAR_NAV.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TABBAR_NAV/PrefixHeader.pch";
+				INFOPLIST_FILE = TABBAR_NAV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xyh.TABBAR-NAV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		74DCBDE91D123C5E003744F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB52BBEAF32BED533CF0C6C9 /* Pods-TABBAR_NAVTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TABBAR_NAVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xyh.TABBAR-NAVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TABBAR_NAV.app/TABBAR_NAV";
+			};
+			name = Debug;
+		};
+		74DCBDEA1D123C5E003744F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A0233A712ECCEE41B948093 /* Pods-TABBAR_NAVTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TABBAR_NAVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xyh.TABBAR-NAVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TABBAR_NAV.app/TABBAR_NAV";
+			};
+			name = Release;
+		};
+		74DCBDEC1D123C5E003744F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA55981850129F7BB27320AC /* Pods-TABBAR_NAVUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = TABBAR_NAVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xyh.TABBAR-NAVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TABBAR_NAV;
+			};
+			name = Debug;
+		};
+		74DCBDED1D123C5E003744F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2384E1AD64949597207EAC5 /* Pods-TABBAR_NAVUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = TABBAR_NAVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xyh.TABBAR-NAVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TABBAR_NAV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74DCBDB31D123C5E003744F6 /* Build configuration list for PBXProject "TABBAR_NAV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74DCBDE31D123C5E003744F6 /* Debug */,
+				74DCBDE41D123C5E003744F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74DCBDE51D123C5E003744F6 /* Build configuration list for PBXNativeTarget "TABBAR_NAV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74DCBDE61D123C5E003744F6 /* Debug */,
+				74DCBDE71D123C5E003744F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74DCBDE81D123C5E003744F6 /* Build configuration list for PBXNativeTarget "TABBAR_NAVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74DCBDE91D123C5E003744F6 /* Debug */,
+				74DCBDEA1D123C5E003744F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74DCBDEB1D123C5E003744F6 /* Build configuration list for PBXNativeTarget "TABBAR_NAVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74DCBDEC1D123C5E003744F6 /* Debug */,
+				74DCBDED1D123C5E003744F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74DCBDB01D123C5E003744F6 /* Project object */;
+}
